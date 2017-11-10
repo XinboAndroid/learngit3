@@ -1,0 +1,6 @@
+操作步骤：
+1) 解压缩到D盘根目录
+2) cd /d D:\jsonschema2pojo-0.4.8进入本目录
+3) jsonschema2pojo -T JSON -a NONE --omit-tostring --omit-hashcode-and-equals --target java-gen  --annotation-style GSON --source json.txt
+
+注意：将json.txt替换为你的json文件名
